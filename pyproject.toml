@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jobhunter"
+version = "0.1.0"
+description = "find jobs"
+authors = ["Jake Brewer <jake.brewer@isasolutions.io>"]
+license = "This is not to be used in whole or in part in any way shape or form without written authorization from jake.brewer@isasolutions.io"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = "^2.0.25"
+pytest = "^7.4.4"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
